@@ -1,0 +1,36 @@
+# CodeIgniter 4 - .gitignore
+
+# Environment file
+.env
+
+# Composer vendor directory
+/vendor/
+
+# Node modules (if using JS tools)
+node_modules/
+
+# Writable directories (cache, logs, sessions, uploads)
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+# PHPUnit test output
+.phpunit.result.cache
+
+# User-specific IDE/editor settings
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
