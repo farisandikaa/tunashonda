@@ -1,56 +1,83 @@
-# CodeIgniter 4 Framework
+# 🌐 Tunas Honda – Motorcycle Sales Application
 
-## What is CodeIgniter?
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-4-red?style=flat&logo=codeigniter)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat&logo=php)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat&logo=javascript)
+![CSS](https://img.shields.io/badge/CSS-3-1572B6?style=flat&logo=css3)
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+Tunas Honda is a **web-based motorcycle sales application**, built with [CodeIgniter 4](https://codeigniter.com/).
+This project manages motorcycle inventory, sales transactions, and customer data for a dealership.
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+🔗 **Live Website:** *(replace with your demo link if available)*
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+---
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## ✨ Features
+- 🏍️ Display available motorcycles for sale
+- 📦 Manage motorcycle inventory (CRUD)
+- 💰 Track sales transactions
+- 👥 Customer management
+- 🔐 Admin user authentication
+- 📱 Responsive design for desktop and mobile
 
+---
 
-## Important Change with index.php
+## 📂 Project Structure
+\`\`\`
+tunashonda/
+├── app/                   # CodeIgniter application files (Controllers, Models, Views)
+├── public/                # Public assets (CSS, JS, images)
+├── writable/              # Logs, cache, uploads
+├── .env                   # Environment config
+├── spark                  # CodeIgniter CLI
+├── composer.json
+├── README.md
+└── LICENSE
+\`\`\`
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+---
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## 🛠️ Getting Started
 
-**Please** read the user guide for a better explanation of how CI4 works!
+### 1. Clone this repository
+\`\`\`bash
+git clone https://github.com/farisandikaa/tunashonda.git
+cd tunashonda
+\`\`\`
 
-## Repository Management
+### 2. Install dependencies
+\`\`\`bash
+composer install
+\`\`\`
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+### 3. Configure environment
+\`\`\`bash
+cp env .env
+# Edit .env to set your database credentials
+\`\`\`
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+### 4. Run migrations (if available)
+\`\`\`bash
+php spark migrate
+\`\`\`
 
-## Contributing
+### 5. Start development server
+\`\`\`bash
+php spark serve
+\`\`\`
 
-We welcome contributions from the community.
+Open [http://localhost:8080](http://localhost:8080) to see the result.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+---
 
-## Server Requirements
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
-PHP version 7.3 or higher is required, with the following extensions installed:
+---
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+## 📬 Contact
+If you’d like to collaborate or have any inquiries, feel free to reach out:
 
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+- 📧 Email: **farisandika2111@gmail.com**
+- 💼 LinkedIn: [linkedin.com/in/farisandikaputra](https://linkedin.com/in/farisandikaputra)
+- 🐙 GitHub: [github.com/farisandikaa](https://github.com/farisandikaa)
