@@ -23,7 +23,7 @@ This project manages motorcycle inventory, sales transactions, and customer data
 ---
 
 ## 📂 Project Structure
-\`\`\`
+```
 tunashonda/
 ├── app/                   # CodeIgniter application files (Controllers, Models, Views)
 ├── public/                # Public assets (CSS, JS, images)
@@ -33,7 +33,7 @@ tunashonda/
 ├── composer.json
 ├── README.md
 └── LICENSE
-\`\`\`
+```
 
 ---
 
@@ -43,20 +43,20 @@ tunashonda/
 ```
 git clone https://github.com/farisandikaa/tunashonda.git
 cd tunashonda
-\`\`\`
+```
 
 ### 2. Install dependencies
-\`\`\`bash
+```
 composer install
-\`\`\`
+```
 
 ### 3. Configure environment
-\`\`\`bash
+```
 cp env .env
 # Edit .env to set your database credentials
 ```
 
-### 4. Run migrations (if available)
+### 4. Run migrations 
 ```
 php spark migrate
 ```
