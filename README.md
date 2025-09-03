@@ -1,4 +1,4 @@
-# 🌐 Tunas Honda – Motorcycle Sales Application
+# 🏍️ Tunas Honda – Motorcycle Sales Application
 
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-4-red?style=flat&logo=codeigniter)
 ![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?style=flat&logo=php)
@@ -40,7 +40,7 @@ tunashonda/
 ## 🛠️ Getting Started
 
 ### 1. Clone this repository
-\`\`\`bash
+```
 git clone https://github.com/farisandikaa/tunashonda.git
 cd tunashonda
 \`\`\`
@@ -54,17 +54,17 @@ composer install
 \`\`\`bash
 cp env .env
 # Edit .env to set your database credentials
-\`\`\`
+```
 
 ### 4. Run migrations (if available)
-\`\`\`bash
+```
 php spark migrate
-\`\`\`
+```
 
 ### 5. Start development server
-\`\`\`bash
+```
 php spark serve
-\`\`\`
+```
 
 Open [http://localhost:8080](http://localhost:8080) to see the result.
 
